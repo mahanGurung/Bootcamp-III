@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/day 5.sol": "ChangeName"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/day 5.sol": {
+			"keccak256": "0x2bc4ceb079c89045db9b511092daddf889de10575a86990053ddc126fdb750a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07a81e1933e5b93873844ac49859c4b37f1d554bb21685fc75178a9b3dd20b6b",
+				"dweb:/ipfs/QmYkXkGtVHgtRUhZjfuNa8FSvBzNg6h8xjBKT6YFRP4ARg"
+			]
+		}
+	},
+	"version": 1
+}
