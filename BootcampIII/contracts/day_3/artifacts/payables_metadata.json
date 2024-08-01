@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/day_3/event.sol": "payables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/day_3/event.sol": {
+			"keccak256": "0xd593556174b4ff9a4774b4508447ac749177adf2048ae790183938cc95d52b87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9fc80165137895596552464d05ef31e02069cb3e6a3d3aa0c43b8bcd9564770",
+				"dweb:/ipfs/QmdzhpHZimBagKZncrkHv7kBw5jSiyAWRuiWwLJSaU3SHo"
+			]
+		}
+	},
+	"version": 1
+}
